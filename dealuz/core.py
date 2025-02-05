@@ -23,6 +23,7 @@ def dea(
 ) -> DEAResult:
     """Perform the multiplier Data Envelopment Analysis (DEA) for an activity table
 
+    
     Parameters
     ----------
     tb : pd.DataFrame
@@ -87,6 +88,15 @@ def dea(
                 input_oriented : bool
                     Boolean value that define an input-oriented model.
                     If False, defines an output-oriented model
+
+    References
+    ----------
+    [1] Charnes, A.; Cooper, W. W.; Rhodes, E. "Measuring the efficiency of
+    decision-making units", European Journal of Operational Research, 1978,
+    https://www.sciencedirect.com/science/article/abs/pii/0377221778901388
+    [2] Cooper, W. W.; Seiford, L. M.; Tone, K. "Data Envelopment Analysis: A Comprehensive
+    Text with Models, Applications, References and DEA-Solver Software", Kluwer
+    Academic Publishers, 2000, https://link.springer.com/book/10.1007/978-0-387-45283-8
 
     """
 
@@ -277,6 +287,13 @@ def graphical_frontier(
         A DataFrame containing `INPUT` and `OUTPUT` coordinates, for
         each index DMU, relative to an identity function efficiency
         frontier
+
+    References
+    ----------
+    [1] Bana e Costa, C. A.; Soares de Mello, J. C. C. B.; Meza, L. A. "A new
+    approach to the bi-dimensional representation of the DEA efficient frontier
+    with multiple inputs and outputs", European Journal of Operational Research,
+    2016, https://www.sciencedirect.com/science/article/abs/pii/S0377221716303320
 
     """
 
