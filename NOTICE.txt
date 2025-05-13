@@ -1,0 +1,29 @@
+This package includes the following third-party software:
+
+- numpy
+Version: 1.26.3
+License: https://github.com/numpy/numpy/blob/main/LICENSE.txt
+
+- pandas
+Version: 2.1.4
+License: https://github.com/pandas-dev/pandas/blob/main/LICENSE
+
+- PuLP
+Version: 2.8.0
+License: https://github.com/coin-or/pulp/blob/master/LICENSE
+
+- python-dateutil
+Version: 2.9.0.post0
+License: https://github.com/dateutil/dateutil/blob/master/LICENSE
+
+- pytz
+Version: 2025.2
+License: https://github.com/newvem/pytz/blob/master/LICENSE.txt
+
+- six
+Version: 1.17.0
+License: https://github.com/benjaminp/six/blob/main/LICENSE
+
+- tzdata
+Version: 2025.2
+License: https://github.com/python/tzdata/blob/master/LICENSE
