@@ -34,8 +34,8 @@ branch; this is the reference set** for the DEA models
 
 This package includes two DEA related functions:
 
-* [`dealuz.dea`](src/dealuz/core.py) which performs the multiplier Data Envelopment Analysis[^1][^2] for an activity table; and
-* [`dealuz.graphical_frontier`](src/dealuz/core.py)based on the work of Bana e Costa et al.[^3] which presents a graphical way
+* [`dealuz.dea`](src/dealuz/core.py) which performs the multiplier Data Envelopment Analysis[^2][^3][^4] for an activity table; and
+* [`dealuz.graphical_frontier`](src/dealuz/core.py)based on the work of Bana e Costa et al.[^1] which presents a graphical way
 to visualize DEA results
 
 For those OOP lovers, the package also has a [`dealuz.DEAResult`](src/dealuz/definitions.py) object that is returned by `dealuz.dea`
@@ -43,10 +43,12 @@ and can be also passed to `dealuz.graphical_frontier`
 
 ## References
 
-[^1]: Charnes, A.; Cooper, W. W.; Rhodes, E. "Measuring the efficiency of decision-making units", European Journal of Operational
-Research, 1978, https://www.sciencedirect.com/science/article/abs/pii/0377221778901388
-[^2]: Cooper, W. W.; Seiford, L. M.; Tone, K. "Data Envelopment Analysis: A Comprehensive Text with Models, Applications, References
-and DEA-Solver Software", Kluwer Academic Publishers, 2000, https://link.springer.com/book/10.1007/978-0-387-45283-8
-[^3]: Bana e Costa, C. A.; Soares de Mello, J. C. C. B.; Meza, L. A. "A new approach to the bi-dimensional representation of the DEA
+[^1]: Bana e Costa, C. A.; Soares de Mello, J. C. C. B.; Meza, L. A. "A new approach to the bi-dimensional representation of the DEA
 efficient frontier with multiple inputs and outputs", European Journal of Operational Research, 2016,
 https://www.sciencedirect.com/science/article/abs/pii/S0377221716303320
+[^2]: Banker, R. D.; Charnes, A.; Cooper, W. W. "Some models for estimating techincal and scale ineficiencies in Data Envelopment
+Analysis", Management Science, 1984, https://www.jstor.org/stable/2631725?origin=JSTOR-pdf
+[^3]: Charnes, A.; Cooper, W. W.; Rhodes, E. "Measuring the efficiency of decision-making units", European Journal of Operational
+Research, 1978, https://www.sciencedirect.com/science/article/abs/pii/0377221778901388
+[^4]: Cooper, W. W.; Seiford, L. M.; Tone, K. "Data Envelopment Analysis: A Comprehensive Text with Models, Applications, References
+and DEA-Solver Software", Kluwer Academic Publishers, 2000, https://link.springer.com/book/10.1007/978-0-387-45283-8
