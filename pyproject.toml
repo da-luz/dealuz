@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dealuz"
+version = "0.1.2"
+dependencies = [
+    "numpy>=1.26.3",
+    "pandas>=2.1.4",
+    "PuLP==2.8.0",
+    "python-dateutil>=2.9.0.post0",
+    "pytz>=2025.2",
+    "six>=1.17.0",
+    "tzdata>=2025.2"
+]
+authors = [
+{ name="Andre da Luz", email="email.andredaluz@gmail.com" },
+]
+description = "a short and simple package implementing Data Envelopment Analysis (DEA)"
+readme = "README.md"
+requires-python = ">=3.11.12"
+
+license = "MIT"
+license-files = ["LICENSE.txt"]
+
+[project.urls]
+Source = "https://github.com/da-luz/dealuz/tree/main"
